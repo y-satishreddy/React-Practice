@@ -1,20 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import MyComponent from './MyComponent'
-import ClassComponent from './ClassComponent'
-
+import { useState } from "react";
+import "./App.css";
+import ClassComponent from "./ClassComponent";
+import MyComponent from "./MyComponent";
+import Counter from "./components/Counter/Counter";
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-     <MyComponent name="Nothing 2A"/>
-     <ClassComponent/>
-     <MyComponent name="Apple"/>
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.counter {
+  @apply h-screen w-screen bg-red-600 flex items-center justify-center;
+}
