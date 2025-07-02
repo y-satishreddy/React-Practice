@@ -1,17 +1,8 @@
-import { useState } from "react";
 import "./App.css";
-import ClassComponent from "./ClassComponent";
-import MyComponent from "./MyComponent";
-import Counter from "./components/Counter/Counter";
 import Search from "./components/Search/Search";
+import FixedAlignment from "./components/FixedAlignment/FixedAlignment";
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <Search />
-    </>
-  );
+  return <FixedAlignment />;
 }
 
 export default App;
