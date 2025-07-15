@@ -11,7 +11,7 @@ const BannerContent = () => {
       <div className="web-content-banner_quote-btn flex items-end">
         <p className="web-content-banner__large-quote text-9xl">Sunnysh.</p>
         <button
-          className="btn text-white text-xl bg-[black] px-6 py-3 
+          className="btn text-white text-s bg-[black] px-2 py-1
  active:scale-95  transition-all duration-100 ease-in-out"
         >
           Learn Now

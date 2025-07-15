@@ -30,7 +30,7 @@
   animation-delay: 0.2s;
 }
 .web-content-banner__large-quote:nth-of-type(2) {
-  animation-delay: 0.5s;
+  animation-delay: 0.3s;
 }
 .web-content-banner__large-quote:nth-of-type(3) {
   animation-delay: 0.8s;
@@ -46,7 +46,6 @@
 
 /* Base Button Style */
 .btn {
-  padding: 0.5rem 1rem;
   color: white;
   margin-bottom: 1.25rem;
   margin-left: 0.5rem;
